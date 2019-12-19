@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346772EE23AB04B3004A8D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346772ED23AB04B3004A8D5F /* AppDelegate.swift */; };
+		346772F023AB04B3004A8D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346772EF23AB04B3004A8D5F /* ViewController.swift */; };
+		346772F323AB04B3004A8D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346772F123AB04B3004A8D5F /* Main.storyboard */; };
+		346772F523AB04B5004A8D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346772F423AB04B5004A8D5F /* Assets.xcassets */; };
+		346772F823AB04B5004A8D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346772F623AB04B5004A8D5F /* LaunchScreen.storyboard */; };
+		3467730323AB04B5004A8D5F /* Find_BLE4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3467730223AB04B5004A8D5F /* Find_BLE4Tests.swift */; };
+		3467730E23AB04B5004A8D5F /* Find_BLE4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3467730D23AB04B5004A8D5F /* Find_BLE4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		346772FF23AB04B5004A8D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 346772E223AB04B3004A8D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 346772E923AB04B3004A8D5F;
+			remoteInfo = "Find-BLE4";
+		};
+		3467730A23AB04B5004A8D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 346772E223AB04B3004A8D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 346772E923AB04B3004A8D5F;
+			remoteInfo = "Find-BLE4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		346772EA23AB04B3004A8D5F /* Find-BLE4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find-BLE4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		346772ED23AB04B3004A8D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		346772EF23AB04B3004A8D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		346772F223AB04B3004A8D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		346772F423AB04B5004A8D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		346772F723AB04B5004A8D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		346772F923AB04B5004A8D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346772FE23AB04B5004A8D5F /* Find-BLE4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-BLE4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3467730223AB04B5004A8D5F /* Find_BLE4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_BLE4Tests.swift; sourceTree = "<group>"; };
+		3467730423AB04B5004A8D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3467730923AB04B5004A8D5F /* Find-BLE4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-BLE4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3467730D23AB04B5004A8D5F /* Find_BLE4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_BLE4UITests.swift; sourceTree = "<group>"; };
+		3467730F23AB04B5004A8D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346772E723AB04B3004A8D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346772FB23AB04B5004A8D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3467730623AB04B5004A8D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346772E123AB04B3004A8D5F = {
+			isa = PBXGroup;
+			children = (
+				346772EC23AB04B3004A8D5F /* Find-BLE4 */,
+				3467730123AB04B5004A8D5F /* Find-BLE4Tests */,
+				3467730C23AB04B5004A8D5F /* Find-BLE4UITests */,
+				346772EB23AB04B3004A8D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		346772EB23AB04B3004A8D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346772EA23AB04B3004A8D5F /* Find-BLE4.app */,
+				346772FE23AB04B5004A8D5F /* Find-BLE4Tests.xctest */,
+				3467730923AB04B5004A8D5F /* Find-BLE4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		346772EC23AB04B3004A8D5F /* Find-BLE4 */ = {
+			isa = PBXGroup;
+			children = (
+				346772ED23AB04B3004A8D5F /* AppDelegate.swift */,
+				346772EF23AB04B3004A8D5F /* ViewController.swift */,
+				346772F123AB04B3004A8D5F /* Main.storyboard */,
+				346772F423AB04B5004A8D5F /* Assets.xcassets */,
+				346772F623AB04B5004A8D5F /* LaunchScreen.storyboard */,
+				346772F923AB04B5004A8D5F /* Info.plist */,
+			);
+			path = "Find-BLE4";
+			sourceTree = "<group>";
+		};
+		3467730123AB04B5004A8D5F /* Find-BLE4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3467730223AB04B5004A8D5F /* Find_BLE4Tests.swift */,
+				3467730423AB04B5004A8D5F /* Info.plist */,
+			);
+			path = "Find-BLE4Tests";
+			sourceTree = "<group>";
+		};
+		3467730C23AB04B5004A8D5F /* Find-BLE4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3467730D23AB04B5004A8D5F /* Find_BLE4UITests.swift */,
+				3467730F23AB04B5004A8D5F /* Info.plist */,
+			);
+			path = "Find-BLE4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		346772E923AB04B3004A8D5F /* Find-BLE4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3467731223AB04B5004A8D5F /* Build configuration list for PBXNativeTarget "Find-BLE4" */;
+			buildPhases = (
+				346772E623AB04B3004A8D5F /* Sources */,
+				346772E723AB04B3004A8D5F /* Frameworks */,
+				346772E823AB04B3004A8D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find-BLE4";
+			productName = "Find-BLE4";
+			productReference = 346772EA23AB04B3004A8D5F /* Find-BLE4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		346772FD23AB04B5004A8D5F /* Find-BLE4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3467731523AB04B5004A8D5F /* Build configuration list for PBXNativeTarget "Find-BLE4Tests" */;
+			buildPhases = (
+				346772FA23AB04B5004A8D5F /* Sources */,
+				346772FB23AB04B5004A8D5F /* Frameworks */,
+				346772FC23AB04B5004A8D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3467730023AB04B5004A8D5F /* PBXTargetDependency */,
+			);
+			name = "Find-BLE4Tests";
+			productName = "Find-BLE4Tests";
+			productReference = 346772FE23AB04B5004A8D5F /* Find-BLE4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3467730823AB04B5004A8D5F /* Find-BLE4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3467731823AB04B5004A8D5F /* Build configuration list for PBXNativeTarget "Find-BLE4UITests" */;
+			buildPhases = (
+				3467730523AB04B5004A8D5F /* Sources */,
+				3467730623AB04B5004A8D5F /* Frameworks */,
+				3467730723AB04B5004A8D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3467730B23AB04B5004A8D5F /* PBXTargetDependency */,
+			);
+			name = "Find-BLE4UITests";
+			productName = "Find-BLE4UITests";
+			productReference = 3467730923AB04B5004A8D5F /* Find-BLE4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		346772E223AB04B3004A8D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "笹倉まお";
+				TargetAttributes = {
+					346772E923AB04B3004A8D5F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					346772FD23AB04B5004A8D5F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 346772E923AB04B3004A8D5F;
+					};
+					3467730823AB04B5004A8D5F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 346772E923AB04B3004A8D5F;
+					};
+				};
+			};
+			buildConfigurationList = 346772E523AB04B3004A8D5F /* Build configuration list for PBXProject "Find-BLE4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 346772E123AB04B3004A8D5F;
+			productRefGroup = 346772EB23AB04B3004A8D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346772E923AB04B3004A8D5F /* Find-BLE4 */,
+				346772FD23AB04B5004A8D5F /* Find-BLE4Tests */,
+				3467730823AB04B5004A8D5F /* Find-BLE4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346772E823AB04B3004A8D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346772F823AB04B5004A8D5F /* LaunchScreen.storyboard in Resources */,
+				346772F523AB04B5004A8D5F /* Assets.xcassets in Resources */,
+				346772F323AB04B3004A8D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346772FC23AB04B5004A8D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3467730723AB04B5004A8D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		346772E623AB04B3004A8D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346772F023AB04B3004A8D5F /* ViewController.swift in Sources */,
+				346772EE23AB04B3004A8D5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346772FA23AB04B5004A8D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3467730323AB04B5004A8D5F /* Find_BLE4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3467730523AB04B5004A8D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3467730E23AB04B5004A8D5F /* Find_BLE4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3467730023AB04B5004A8D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 346772E923AB04B3004A8D5F /* Find-BLE4 */;
+			targetProxy = 346772FF23AB04B5004A8D5F /* PBXContainerItemProxy */;
+		};
+		3467730B23AB04B5004A8D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 346772E923AB04B3004A8D5F /* Find-BLE4 */;
+			targetProxy = 3467730A23AB04B5004A8D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		346772F123AB04B3004A8D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346772F223AB04B3004A8D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		346772F623AB04B5004A8D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346772F723AB04B5004A8D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3467731023AB04B5004A8D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3467731123AB04B5004A8D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3467731323AB04B5004A8D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6GZB4X626;
+				INFOPLIST_FILE = "Find-BLE4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mao-saasa-icloud.com.Find-BLE4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3467731423AB04B5004A8D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6GZB4X626;
+				INFOPLIST_FILE = "Find-BLE4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mao-saasa-icloud.com.Find-BLE4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3467731623AB04B5004A8D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6GZB4X626;
+				INFOPLIST_FILE = "Find-BLE4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mao-saasa-icloud.com.Find-BLE4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find-BLE4.app/Find-BLE4";
+			};
+			name = Debug;
+		};
+		3467731723AB04B5004A8D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6GZB4X626;
+				INFOPLIST_FILE = "Find-BLE4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mao-saasa-icloud.com.Find-BLE4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find-BLE4.app/Find-BLE4";
+			};
+			name = Release;
+		};
+		3467731923AB04B5004A8D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6GZB4X626;
+				INFOPLIST_FILE = "Find-BLE4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mao-saasa-icloud.com.Find-BLE4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find-BLE4";
+			};
+			name = Debug;
+		};
+		3467731A23AB04B5004A8D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6GZB4X626;
+				INFOPLIST_FILE = "Find-BLE4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mao-saasa-icloud.com.Find-BLE4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find-BLE4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346772E523AB04B3004A8D5F /* Build configuration list for PBXProject "Find-BLE4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3467731023AB04B5004A8D5F /* Debug */,
+				3467731123AB04B5004A8D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3467731223AB04B5004A8D5F /* Build configuration list for PBXNativeTarget "Find-BLE4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3467731323AB04B5004A8D5F /* Debug */,
+				3467731423AB04B5004A8D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3467731523AB04B5004A8D5F /* Build configuration list for PBXNativeTarget "Find-BLE4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3467731623AB04B5004A8D5F /* Debug */,
+				3467731723AB04B5004A8D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3467731823AB04B5004A8D5F /* Build configuration list for PBXNativeTarget "Find-BLE4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3467731923AB04B5004A8D5F /* Debug */,
+				3467731A23AB04B5004A8D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 346772E223AB04B3004A8D5F /* Project object */;
+}
