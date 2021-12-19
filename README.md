@@ -1,5 +1,15 @@
 # ios-ble-fingerprint
 
+## プレゼン資料
+
+<img src="" width=800>
+
+<img src="" width=800>
+
+<img src="" width=800>
+
+<img src="" width=800>
+
 ## 参考
 bluetooth
 
